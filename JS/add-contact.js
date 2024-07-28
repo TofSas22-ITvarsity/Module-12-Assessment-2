@@ -12,18 +12,18 @@ function submitForm(e) {
         headers: { 'Accept': 'application/json, *.*' },
         body: form
     })
-    .then(function (response) {
-        return response.text();
-    })
-    .then(function (data) {
-        if (data == "1") {
-            alert("Contact Added");
-            homeLink();
-        } else {
-            alert(data);
-            homeLink();
-        }
-    })
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (data) {
+            if (data == "1") {
+                alert("Contact Added");
+                homeLink();
+            } else {
+                alert(data);
+                homeLink();
+            }
+        })
 }
 
 function homeLink() {
