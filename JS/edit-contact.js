@@ -26,7 +26,7 @@ function homeLink() {
 }
 
 function displayOutput(data) {
-    let avatarImg = `<img src="${rootPath}/controller/uploads/${data[0].avatar}" width="200">`;
+    let avatarImg = `<img src="${rootPath}/controller/uploads/${data[0].avatar}" class="img-fluid rounded-circle mb-3">`;
     document.getElementById("avatarImage").innerHTML = avatarImg;
     document.getElementById("firstname").value = data[0].firstname;
     document.getElementById("lastname").value = data[0].lastname;

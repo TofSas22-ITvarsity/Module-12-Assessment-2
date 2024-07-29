@@ -1,0 +1,120 @@
+/* ---Universal--- */
+
+/* Container and card styling */
+.container {
+    max-width: 600px;
+}
+
+/* ---index.html--- */
+
+/* Custom styles for the card */
+.card {
+    border-radius: 0.5rem;
+}
+
+/* Styling for the buttons */
+#refresh, #addContact {
+    min-width: 100px;
+    font-size: 1rem;
+}
+
+/* Ensuring the table content is styled consistently */
+#table {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* Image styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+/* Text styling */
+h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Adding some spacing to the rows for better readability */
+tr {
+    transition: background-color 0.3s ease;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* ---add-contact.html--- */
+
+.card {
+    border-radius: 0.5rem;
+}
+
+/* Header and footer styling */
+.card-header, .card-footer {
+    background-color: #f8f9fa;
+}
+
+/* Form element styling */
+.form-control {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+/* Button styling */
+.btn {
+    min-width: 100px;
+}
+
+#submitForm {
+    margin-top: 1rem;
+}
+
+
+/* ---edit-contact.html--- */
+
+/* Center and style the avatar image */
+#avatarImage img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+/* Style the card and its contents */
+.card {
+    border-radius: 0.5rem;
+}
+
+.card-header, .card-footer {
+    background-color: #f8f9fa;
+}
+
+/* Style for form controls */
+.form-control[readonly] {
+    background-color: #f1f1f1;
+    border-color: #ced4da;
+    color: #495057;
+}
+
+/* Hide form elements */
+[hidden] {
+    display: none !important;
+}
+
+/* Button styles */
+.btn {
+    min-width: 100px;
+}
